@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>לאה ויוסף־אברהם אתאלי</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600&display=swap');
+        
+        body { 
+            font-family: 'Assistant', sans-serif; 
+            background-color: #f9f7f2; 
+            color: #2d3748; 
+            padding-bottom: 100px; 
+            min-height: 100vh;
+        }
+
+        .tree-bg {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: -1;
+            opacity: 0.15;
+            background-image: url('https://images.unsplash.com/photo-1502082553048-f009c37129b9?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: right center;
+        }
+
+        .gen-node { 
+            border: 1px solid #cbd5e0; 
+            padding: 0.75rem; 
+            border-radius: 0.75rem; 
+            background: rgba(255, 255, 255, 0.8); 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+            text-align: center; 
+            font-weight: 600; 
+            min-width: 160px; 
+            margin: 0.5rem;
+        }
+        
+        .gen-4-item { 
+            font-size: 0.85rem; 
+            color: #4a5568; 
+            margin-top: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 0.5rem;
+        }
+
+        .connector { width: 1px; height: 20px; background: #a0aec0; margin: 0 auto; }
+        .family-group { display: flex; flex-direction: column; align-items: center; }
+    </style>
+</head>
+<body class="p-4 md:p-10">
+    <div class="tree-bg"></div>
+    <header class="text-center mb-16">
+        <h1 class="text-5xl font-bold text-slate-800 mb-2">לאה ויוסף־אברהם אתאלי</h1>
+    </header>
+
+    <div class="flex flex-wrap justify-center gap-12 items-start">
+        <!-- דור שני משותף בשורה אופקית -->
+        <div class="flex flex-wrap justify-center gap-6">
+            
+            <!-- נחליאל -->
+            <div class="family-group">
+                <div class="gen-node">נחליאל־יצחק ושרה אתאלי</div>
+                <div class="connector"></div>
+                <div class="flex flex-col gap-2">
+                    <div class="gen-node">מיטל ודוד רובכה<div class="gen-4-item">שמואל, יונתן, יוסף, אביגיל, נהורא, אלישע, ינון, אליה</div></div>
+                    <div class="gen-node">הדס ונהוראי פרץ<div class="gen-4-item">שירה, כרמל, טל־אברהם, איילת־חן, הדר, עדי, ליבי</div></div>
+                    <div class="gen-node">אפרת ואדיר בוצחק<div class="gen-4-item">עטרה, לביא, נדב, עידו, נגה</div></div>
+                    <div class="gen-node">דפנה ויאיר־אברהם מרזל<div class="gen-4-item">שהם, זיו־יוסף, מאור, דרור</div></div>
+                    <div class="gen-node">אליעזר־חנניה אתאלי</div>
+                    <div class="gen-node">איתן־חן ונטע אתאלי<div class="gen-4-item">מעין־דוד</div></div>
+                </div>
+            </div>
+
+            <!-- אביטל -->
+            <div class="family-group">
+                <div class="gen-node">אביטל ובני בלוך</div>
+                <div class="connector"></div>
+                <div class="flex flex-col gap-2">
+                    <div class="gen-node">הודיה ואמיר אקדם<div class="gen-4-item">דוד, טל־שרה, יהונתן, רועי, תמר</div></div>
+                    <div class="gen-node">אתאל וחנן כהן<div class="gen-4-item">מעיין, הלל, פורת, אורי</div></div>
+                    <div class="gen-node">צופיה וישי־דב ויסברג<div class="gen-4-item">איתן־אביחי, יואל־חי, נועם, שחר־דוד, כרמל</div></div>
+                    <div class="gen-node">אסתר ואליסף־חן גורי<div class="gen-4-item">מרדכי, אליה, בניהו, עמוס</div></div>
+                    <div class="gen-node">רחל ונדב־אלימלך דניאלי</div>
+                    <div class="gen-node">נעה ודוד היזמי<div class="gen-4-item">עמנואל</div></div>
+                    <div class="gen-node">יחיאל־חנן בלוך</div>
+                    <div class="gen-node">שלמה בלוך</div>
+                    <div class="gen-node">ישראל ונחמה בלוך<div class="gen-4-item">איילת השחר, רני בת־ציון</div></div>
+                    <div class="gen-node">יוסף־חיים בלוך</div>
+                </div>
+            </div>
+
+            <!-- אלחנן -->
+            <div class="family-group">
+                <div class="gen-node">אלחנן־אהרן הי"ד אתאלי</div>
+                <div class="connector"></div>
+                <div class="gen-node" style="max-width: 250px; font-style: italic; font-size: 0.9rem;">וְנָתַתִּי לָהֶם בְּבֵיתִי וּבְחוֹמֹתַי יָד וָשֵׁם טוֹב מִבָּנִים וּמִבָּנוֹת, שֵׁם עוֹלָם אֶתֶּן לוֹ אֲשֶׁר לֹא יִכָּרֵת</div>
+            </div>
+
+            <!-- אלישבע -->
+            <div class="family-group">
+                <div class="gen-node">אלישבע וערן טמיר</div>
+                <div class="connector"></div>
+                <div class="flex flex-col gap-2">
+                    <div class="gen-node">אחיה־אלחנן ובתאל טמיר<div class="gen-4-item">טלאור, נהוראי־יוסף, רני־שרה, אריאל, שילה</div></div>
+                    <div class="gen-node">רעיה־שלווה ושלמה־צבי פרידמן<div class="gen-4-item">בצלאל, גפן, רז־אברהם, רואה־טוביה</div></div>
+                    <div class="gen-node">אלישיב־יוסף ונעם טמיר</div>
+                    <div class="gen-node">משה ולאה טמיר<div class="gen-4-item">נריה, רואי־ישראל</div></div>
+                    <div class="gen-node">טל־תחיה ואורי כהן<div class="gen-4-item">בניה</div></div>
+                    <div class="gen-node">הדר ומרדכי־שילה פרץ</div>
+                    <div class="gen-node">תהילה טמיר</div>
+                    <div class="gen-node">ינון טמיר</div>
+                </div>
+            </div>
+
+            <!-- מוריה -->
+            <div class="family-group">
+                <div class="gen-node">מוריה־רבקה־מרים ודוד הר־זהב</div>
+                <div class="connector"></div>
+                <div class="flex flex-col gap-2">
+                    <div class="gen-node">אורה ומאיר שריר</div>
+                    <div class="gen-node">חננאל הר־זהב</div>
+                    <div class="gen-node">תמר ויוחאי־אהרן בן הרוש<div class="gen-4-item">עדן־יוסף</div></div>
+                    <div class="gen-node">יהודה הר־זהב</div>
+                    <div class="gen-node">מלאכי הר־זהב</div>
+                    <div class="gen-node">ישי הר־זהב</div>
+                </div>
+            </div>
+
+            <!-- עמיחי -->
+            <div class="family-group">
+                <div class="gen-node">עמיחי־נריה־חיים ואלישבע אתאלי</div>
+                <div class="connector"></div>
+                <div class="flex flex-col gap-2">
+                    <div class="gen-node">נעם־מרים אתאלי</div>
+                    <div class="gen-node">עומר אתאלי</div>
+                    <div class="gen-node">כרמל אתאלי</div>
+                    <div class="gen-node">בארי־הדר אתאלי</div>
+                    <div class="gen-node">יובל־הללי אתאלי</div>
+                    <div class="gen-node">מאיה־אלה אתאלי</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
