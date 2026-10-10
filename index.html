@@ -6,7 +6,7 @@
     <title>אתאלי</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&display=swap');
         
         body { 
             font-family: 'Assistant', sans-serif; 
@@ -35,6 +35,15 @@
             min-width: 160px; 
             margin: 0.5rem;
         }
+
+        /* עיצוב מיוחד לדור השני - הגדלת גופן ב-2 נקודות ומסגרת עדינה בצבע שונה */
+        .gen-2-node {
+            font-size: 1.125rem; /* הגדלה מ-16px ל-18px (2pt / 2px) */
+            border: 1.5px solid #2b6cb0; /* מסגרת עדינה בצבע כחול-ספיר */
+            background: rgba(255, 255, 255, 0.92);
+            box-shadow: 0 4px 10px rgba(43, 108, 176, 0.1);
+            color: #1a365d;
+        }
         
         .gen-4-item { 
             font-size: 0.85rem; 
@@ -45,6 +54,7 @@
             gap: 2px;
             border-top: 1px solid #e2e8f0;
             padding-top: 0.5rem;
+            font-weight: 400;
         }
 
         .connector { width: 1px; height: 20px; background: #a0aec0; margin: 0 auto; }
@@ -63,7 +73,7 @@
             
             <!-- נחליאל -->
             <div class="family-group">
-                <div class="gen-node">נחליאל־יצחק ושרה אתאלי</div>
+                <div class="gen-node gen-2-node">נחליאל־יצחק ושרה אתאלי</div>
                 <div class="connector"></div>
                 <div class="flex flex-col gap-2">
                     <div class="gen-node">מיטל ודוד רובכה<div class="gen-4-item">שמואל, יונתן, יוסף, אביגיל, נהורא, אלישע, ינון, אליה</div></div>
@@ -77,7 +87,7 @@
 
             <!-- אביטל -->
             <div class="family-group">
-                <div class="gen-node">אביטל ובני בלוך</div>
+                <div class="gen-node gen-2-node">אביטל ובני בלוך</div>
                 <div class="connector"></div>
                 <div class="flex flex-col gap-2">
                     <div class="gen-node">הודיה ואמיר אקדם<div class="gen-4-item">דוד, טל־שרה, יהונתן, רועי, תמר</div></div>
@@ -95,14 +105,14 @@
 
             <!-- אלחנן -->
             <div class="family-group">
-                <div class="gen-node">אלחנן־אהרן הי"ד אתאלי</div>
+                <div class="gen-node gen-2-node">אלחנן־אהרן הי"ד אתאלי</div>
                 <div class="connector"></div>
                 <div class="gen-node" style="max-width: 250px; font-style: italic; font-size: 0.9rem;">וְנָתַתִּי לָהֶם בְּבֵיתִי וּבְחוֹמֹתַי יָד וָשֵׁם טוֹב מִבָּנִים וּמִבָּנוֹת, שֵׁם עוֹלָם אֶתֶּן לוֹ אֲשֶׁר לֹא יִכָּרֵת</div>
             </div>
 
             <!-- אלישבע -->
             <div class="family-group">
-                <div class="gen-node">אלישבע וערן טמיר</div>
+                <div class="gen-node gen-2-node">אלישבע וערן טמיר</div>
                 <div class="connector"></div>
                 <div class="flex flex-col gap-2">
                     <div class="gen-node">אחיה־אלחנן ובתאל טמיר<div class="gen-4-item">טלאור, נהוראי־יוסף, רני־שרה, אריאל, שילה</div></div>
@@ -118,7 +128,7 @@
 
             <!-- מוריה -->
             <div class="family-group">
-                <div class="gen-node">מוריה־רבקה־מרים ודוד הר־זהב</div>
+                <div class="gen-node gen-2-node">מוריה־רבקה־מרים ודוד הר־זהב</div>
                 <div class="connector"></div>
                 <div class="flex flex-col gap-2">
                     <div class="gen-node">אורה ומאיר שריר</div>
@@ -132,7 +142,7 @@
 
             <!-- עמיחי -->
             <div class="family-group">
-                <div class="gen-node">עמיחי־נריה־חיים ואלישבע אתאלי</div>
+                <div class="gen-node gen-2-node">עמיחי־נריה־חיים ואלישבע אתאלי</div>
                 <div class="connector"></div>
                 <div class="flex flex-col gap-2">
                     <div class="gen-node">נעם־מרים אתאלי</div>
